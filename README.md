@@ -119,3 +119,70 @@ This project is plugged into a **PostgreSQL** database, with **SQlite3** used in
 
 [Go back to Top](#table-of-content)
   ***
+
+## **Planes of Development**
+### **Strategy**
+
+The aim of making this site is to make a website that focus mainly on Fashion products. 
+There are plenty of sites right now but very few focus on fashion clothes and  beauty accessories. We are going through a pandemic and lockdown situation worldwide. We are bound to stay inside our home and left with very few activities, in that online shopping is a good hobby to pursue.
+
+ ### **Scope**
+
+ 1. I want to make a website that is accessible to everyone. People can search and browse all the products without being registered so that there will be no hesitation in going through the site. Anyone can do the purchasing by adding his/her details and doing a valid payment. 
+ 
+ 2. The detail of every product opens on a new page with a product rating with it, so it is easier to decide which product to buy. 
+ 
+ 3. Products can be sorted in various ways like the price- low to high or high to low, category, ratings, etc. users can make their profile so that when they return, they will have their details already filled.
+
+ 4. Users can go through the blog page and write a comment if they want. And they can contact the site owner with the contact form provided.
+
+### **Structure**
+
+- This website will be a multi-page site, where pages are connected through Navigation Bar or Python. 
+- The navigation bar will have links for the Home page, my account(login, register), bag, and Blog. The navigation links will change and show the logout and My profile Once the user is logged in. 
+- It will show a product management link for the admin. The navigation bar will be collapsible for Mobile view. 
+- There will be a footer, which will show the contact details of the admin. It will be sticky and always remain at the end of the page. 2 forms will be there, one for Login and the other for Registration. 
+- One contact form will also be there for the users to contact the admin. There will be pages for products, product details, shopping bag, checkout, checkout success, blog, blog details, Users will have my profile page after they register with the site. Admin will do the product management, he/she can add edit, and delete any product. Admin will post the blog which can be commented on by any user.
+- SQLite3 is used in the development and the PostgreSQL database is used in production mode. All the static and media files will be stored in the AWS s3 bucket it will be deployed by using Heroku.
+
+### **Skeleton**
+#### **Wireframe**
+
+The wireframes for this project can be seen here.
+<details>
+<summary>Wireframe</summary>
+<br>
+
+1. [Home Page]()
+
+2. [Products Page]()
+
+3. [Product Details Page]()
+
+4. [Category Page]()
+
+5. [My Profile Page]()
+
+6. [Login Page]()
+
+7. [Register Page]()
+
+8. [Bag Page]()
+
+9. [Checkout Page]()
+
+10. [Contact page]()
+
+11. [Blog Page]()
+
+12. [Blog Details Page]()
+
+13. [Product Management Page]()
+
+</details>
+
+#### **Sitemap**
+A Sitemap is prepared for this site to understand the navigation of the pages.
+
+The Sitemap can be seen here. [Sitemap]()
+
