@@ -112,21 +112,13 @@ input[name='q']::placeholder {
   color: black;
 }
 
-
-
-
 #main-nav a {
   color: #000;
 }
 
-
-
 .bag-info {
   color: #E1AD01;
 }
-
-
-
 
 .delivery-banner-bg {
   background-color: #E1AD01;
@@ -156,7 +148,15 @@ input[name='q']::placeholder {
   color: #E1AD01;
 }
 
-.nav-link .fa-star {
+#main-nav a:hover {
+  color: #E1AD01;
+}
+
+.bag-icon:hover {
+  color: #E1AD01;
+}
+
+.nav-link {
   color: #E1AD01;
 }
 
