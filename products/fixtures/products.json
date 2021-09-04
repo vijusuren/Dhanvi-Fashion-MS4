@@ -1,0 +1,257 @@
+[
+    {
+        "pk": 1, 
+        "model": "products.product", 
+        "fields": 
+            {
+                "sku": "pp5001340155", 
+                "name": "Jeans", 
+                "description": "", 
+                "price": 23, 
+                "category": 1, 
+                "rating": 4.6, 
+                "image_url": "https://images.riverisland.com/is/image/RiverIsland/blue-high-waisted-skinny-jeans_779447_main?$ProductListingPage$", 
+                "image": "jeans1"
+            }
+    }, 
+    {
+        "pk": 2, 
+        "model": "products.product", 
+        "fields": 
+            {
+                "sku": "pp5001600425", 
+                "name": "Blue Jeans", 
+                "description": "", 
+                "price": 25, 
+                "category": 1, 
+                "rating": 4.6, 
+                "image_url": "https://i8.amplience.net/i/arnotts/1000352532_ar_99?$prodtitle_md_ar$&$jpg$", 
+                "image": "jeans2"
+            }
+    },
+    {
+        "pk": 3,
+        "model": "products.product", 
+        "fields": 
+            {
+                "sku": "pp5001730010", 
+                "name": "Black Jeans", 
+                "description": "", 
+                "price": 21, 
+                "category": 1, 
+                "rating": 4.7, 
+                "image_url": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1d%2Feb%2F1deb10264a09798d799440739fe8f344a1c10f85.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_jeans_skinny%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]", 
+                "image": "jeans3"
+            }
+    }, 
+    {
+        "pk": 4,
+        "model": "products.product", 
+        "fields": 
+            {
+                "sku": "pp5001890157", 
+                "name": "White Jeans", 
+                "description": "", 
+                "price": 28, 
+                "category": 1, 
+                "rating": 3.0, 
+                "image_url": "https://s7.landsend.com/is/image/LandsEnd/516964_FW19_FF_WHI?wid=460", 
+                "image": "jeans4"
+            }
+    },
+    {
+        "pk": 5, 
+        "model": "products.product", 
+        "fields": 
+            {
+                "sku": "pp5002111605", 
+                "name": "Blue Slim Straight Leg Jeans", 
+                "description": "", 
+                "price": 17, 
+                "category": 1, 
+                "rating": 5.0, 
+                "image_url": "https://primedia.primark.com/s/primark/133850139_ms?locale=en-IE,en-IE,en-*,*&$product$", 
+                "image": "jeans5"
+            }
+    }, 
+    {
+        "pk": 6, 
+        "model": "products.product", 
+        "fields": 
+            {
+                "sku": "pp5002260206", 
+                "name": "Fancy Tops", 
+                "description": "", 
+                "price": 20, 
+                "category": 1, 
+                "rating": 4.7, 
+                "image_url": "https://static.fibre2fashion.com/MemberResources/LeadResources/1/2019/2/Seller/19160069/Images/19160069_0_ladies-printed-fancy-tops.jpg", 
+                "image": "tops1"
+            }
+    }, 
+    {
+        "pk": 7, 
+        "model": "products.product", 
+        "fields": 
+            {
+                "sku": "pp5002440521", 
+                "name": "Blouse Tops Pink", 
+                "description": "", 
+                "price": 25, 
+                "category": 1, 
+                "rating": 4.4, 
+                "image_url": "https://i.pinimg.com/originals/fe/54/80/fe5480e7c2f1f17a748b978c8261b70e.jpg", 
+                "image": "tops2"
+            }
+    },
+    {
+        "pk": 8, 
+        "model": "products.product", 
+        "fields": 
+           {
+                "sku": "pp5002601115", 
+                "name": "Fancy Tops light colour", 
+                "description": "", 
+                "price": 25, 
+                "category": 1, 
+                "rating": 4.5, 
+                "image_url": "https://5.imimg.com/data5/WY/BG/MY-11239614/fancy-ladies-tops-250x250.jpg", 
+                "image": "tops3"
+            }
+    }, 
+    {
+        "pk": 9, 
+        "model": "products.product", 
+        "fields": 
+            {
+                "sku": "pp5002690715", 
+                "name": "Fancy tops with full sleeve", 
+                "description": "", 
+                "price": 28, 
+                "category": 1, 
+                "rating": 4.7, 
+                "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgnN1B44yUbPPlQg54QdVjfXAO-NTFYRLwLA&usqp=CAU", 
+                "image": "tops4"
+            }
+    },
+    {
+        "pk": 10,
+        "model": "products.product", 
+        "fields": 
+            {
+                "sku": "pp5002701115", 
+                "name": "Floral Top", 
+                "description": "", 
+                "price": 31, 
+                "category": 1, 
+                "rating": 4.4, 
+                "image_url": "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-410,/pub/media/catalog/product/2/0/208730801_g1.jpg?rnd=20200526195200", 
+                "image": "tops5"
+            }
+    }, 
+    {
+        "pk": 11, 
+        "model": "products.product", 
+        "fields": 
+            {
+                "sku": "pp5002761055", 
+                "name": "T-shirts", 
+                "description": "", 
+                "price": 27, 
+                "category": 1, 
+                "rating": 3.0, 
+                "image_url": "https://media.boohoo.com/i/boohoo/pzz78555_khaki_xl?$product_image_category_page$", 
+                "image": "t-shirts1.jfif"
+            }
+    }, 
+    {
+        "pk": 12, 
+        "model": "products.product", 
+        "fields": 
+            {
+                "sku": "pp5002820069", 
+                "name": "Outdoor T-shirts", 
+                "description": "", 
+                "price": 30, 
+                "category": 1, 
+                "rating": 4.6, 
+                "image_url": "https://content.regatta.com/RWT202_800/350/RWT202_800_01_bynder_defined_type_model_01.jpg", 
+                "image": "t-shirts2.jpg"
+            }
+    },
+    {
+        "pk": 13, 
+        "model": "products.product", 
+        "fields": 
+            {
+                "sku": "pp5002820147", 
+                "name": "Cotton T-shirts Black", 
+                "description": "", 
+                "price": 11,
+                "category": 1, 
+                "rating": 3.2, 
+                "image_url": "https://image.made-in-china.com/202f0j00EtRUBuWcmnrQ/Custom-Design-Own-Women-Tshirt-Fashion-T-Shirts-Organic-Cotton-Tee-Shirt-Customized-Ladies-T-Shirt-Girl-Plain-T-Shirt-Woman-Clothes-T-Shirts.jpg", 
+                "image": "t-shirts3.jpg"
+            }
+    },
+    {
+        "pk": 14, 
+        "model": "products.product", 
+        "fields": 
+            {
+                "sku": "pp5002910572", 
+                "name": "Blue outdoor T-shirts", 
+                "description": "", 
+                "price": 26, 
+                "category": 1, 
+                "rating": 4.7, 
+                "image_url": "https://content.regatta.com/RWT188_01A/350/RWT188_01A_01_bynder_defined_type_model_01.jpg", 
+                "image": "t-shirts4.jpg"
+            }
+    },
+    {
+        "pk": 15, 
+        "model": "products.product", 
+        "fields": 
+            {
+                "sku": "pp5002990740", 
+                "name": "Long sleeve T-shirts", 
+                "description": "", 
+                "price": 35, 
+                "category": 1, 
+                "rating": 4.8, 
+                "image_url": "https://ak1.ostkcdn.com/images/products/9028331/Womens-Organic-Cotton-Long-Sleeve-T-shirt-fad1254c-c9aa-4860-a5c5-cd65234cfad7.jpg", 
+                "image": "t-shirts5.jpg"
+            }
+    },
+    {
+        "pk": 16, 
+        "model": "products.product", 
+        "fields": 
+            {
+                "sku": "pp5003050248", 
+                "name": "Skirts", 
+                "description": "", 
+                "price": 35, 
+                "category": 1, 
+                "rating": 4.8, 
+                "image_url": "https://www.bodenimages.com/productimages/productlarge/21waut_r0027_mos.jpg", 
+                "image": "skirts1.jpg"
+            }
+    },
+    {
+        "pk": 17, 
+        "model": "products.product", 
+        "fields": 
+            {
+                "sku": "pp5003070787", 
+                "name": "Lite Green Satin Pleated Skirt", 
+                "description": "his pleated green midi skirt is the trendiest item of the season. The skirt works for all body types as the pleats expand and contract as per the shape of the body. Elasticated wide back waistband which has a very slimming effect on the midsection (tummy/waist). The length of the skirt is below the knee length. The premium silk satin fabric looks extremely rich and is wrinkle-free thus making it travel friendly.", 
+                "price": 33.99, 
+                "category": 1, 
+                "rating": 4.4, 
+                "image_url": "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-824,/pub/media/catalog/product/u/l/ulss19bt09-19-065-1.jpg?rnd=20200526195200", 
+                "image": "skirts.jpg"
+            }
+    }
+]

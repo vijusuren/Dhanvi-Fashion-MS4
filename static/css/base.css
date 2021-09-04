@@ -108,29 +108,24 @@ input[name='q']::placeholder {
 
 /*--------------------------------------Nav Bar */
 
-.top-nav-icon:hover {
-  text-decoration: underline;
+.nav-item {
+  color: black;
 }
 
-#main-nav a:hover {
-  color: #E1AD01;
-}
+
+
 
 #main-nav a {
   color: #000;
 }
 
-.nav-item a.dropdown-item:hover {
-  color: #E1AD01;
-}
+
 
 .bag-info {
   color: #E1AD01;
 }
 
-.bag-icon:hover {
-  color: #E1AD01;
-}
+
 
 
 .delivery-banner-bg {
@@ -208,7 +203,7 @@ input[name='q']::placeholder {
   font-size:130%;
   width: 300px;
   height: 150px;
-  background-color: rgba(225, 173, 1, 0.8);
+  background-color: #E1AD01;
   position: absolute;
   color: #000;
   
@@ -301,7 +296,7 @@ input[name='q']::placeholder {
     }
 
     #main-nav a {
-      color: #fff;
+      color: #000;
   }
 
   .logo-font {
@@ -338,19 +333,7 @@ input[name='q']::placeholder {
 
 @media (max-width: 991px) {
 
-  .header-container {
-      padding-top: 95px;
-  }
-
-  body {
-      height: calc(100vh - 116px);
-  }
-
-  .display-4.logo-font.text-black {
-      font-size: 2rem;
-  }
-
-  .nav-link {
+ .nav-link {
       padding: 0.15rem;
   }
 
@@ -395,10 +378,10 @@ input[name='q']::placeholder {
   }
 
   .cover-text {
-      top: -200px;
-      font-size: 120%;
-      width: 240px;
-      height: 120px;
+      top: -75px;
+      font-size: 75%;
+      width: 140px;
+      height: 100px;
       padding-top: 20px;
       position: absolute;
      
