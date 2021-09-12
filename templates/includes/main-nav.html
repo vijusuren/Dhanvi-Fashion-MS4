@@ -16,7 +16,7 @@
         </li>
         <!-- Clothes button -->
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link mr-5" href="#" id="clothes-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link mr-5" href="{% url 'products' %}" id="clothes-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Clothes
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothes-link">
@@ -25,7 +25,7 @@
                 <a href="" class="dropdown-item">T-Shirts</a>
                 <a href="" class="dropdown-item">Skirts</a>
                 <a href="" class="dropdown-item">Dresses</a>
-                <a href="" class="dropdown-item">All Clothes</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Clothes</a>
             </div>
         </li>
         <!-- Jewellery button -->
