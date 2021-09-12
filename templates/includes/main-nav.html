@@ -20,12 +20,12 @@
                 Clothes
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothes-link">
-                <a href="" class="dropdown-item">Jeans</a>
-                <a href="" class="dropdown-item">Tops</a>
-                <a href="" class="dropdown-item">T-Shirts</a>
-                <a href="" class="dropdown-item">Skirts</a>
-                <a href="" class="dropdown-item">Dresses</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Clothes</a>
+                <a href="{% url 'products' %}?category=jeans" class="dropdown-item">Jeans</a>
+                <a href="{% url 'products' %}?category=tops" class="dropdown-item">Tops</a>
+                <a href="{% url 'products' %}?category=shirts" class="dropdown-item">T-Shirts</a>
+                <a href="{% url 'products' %}?category=skirts" class="dropdown-item">Skirts</a>
+                <a href="{% url 'products' %}?category=dresses" class="dropdown-item">Dresses</a>
+                <a href="{% url 'products' %}?category=jeans,tops,shirts,skirts,dresses" class="dropdown-item">All Clothes</a>
             </div>
         </li>
         <!-- Jewellery button -->
@@ -34,10 +34,10 @@
                 Jewellery
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="jewellery-link">
-                <a href="" class="dropdown-item">Necklaces</a>
-                <a href="" class="dropdown-item">Earrings</a>
-                <a href="" class="dropdown-item">Rings</a>
-                <a href="" class="dropdown-item">All Jewellery</a>
+                <a href="{% url 'products' %}?category=necklaces" class="dropdown-item">Necklaces</a>
+                <a href="{% url 'products' %}?category=earrings" class="dropdown-item">Earrings</a>
+                <a href="{% url 'products' %}?category=rings" class="dropdown-item">Rings</a>
+                <a href="{% url 'products' %}?category=necklaces,earrings,rings" class="dropdown-item">All Jewellery</a>
             </div>
         </li>
         <!--Bags button-->
@@ -46,11 +46,11 @@
                 Bags
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="bags-link">
-                <a href="" class="dropdown-item">Crossbody Bags</a>
-                <a href="" class="dropdown-item">Purses</a>
-                <a href="" class="dropdown-item">Hand Bags</a>
-                <a href="" class="dropdown-item">Backpacks</a>
-                <a href="" class="dropdown-item">All Bags</a>
+                <a href="{% url 'products' %}?category=crossbody_bag" class="dropdown-item">Crossbody Bags</a>
+                <a href="{% url 'products' %}?category=purses" class="dropdown-item">Purses</a>
+                <a href="{% url 'products' %}?category=handbag" class="dropdown-item">Hand Bags</a>
+                <a href="{% url 'products' %}?category=backpacks" class="dropdown-item">Backpacks</a>
+                <a href="{% url 'products' %}?category=crossbody_bag,purses,handbag,backpacks" class="dropdown-item">All Bags</a>
             </div>
         </li>
         <!--Accessories button-->
@@ -59,10 +59,10 @@
                 Beauty Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="accessories-link">
-                <a href="" class="dropdown-item">Cosmetics</a>
-                <a href="" class="dropdown-item">Makeup Kit</a>
-                <a href="" class="dropdown-item">Hair Accessories</a>
-                <a href="" class="dropdown-item">All Beauty Accessories</a>
+                <a href="{% url 'products' %}?category=cosmetics" class="dropdown-item">Cosmetics</a>
+                <a href="{% url 'products' %}?category=makeup_kit" class="dropdown-item">Makeup Kit</a>
+                <a href="{% url 'products' %}?category=hair_accessories" class="dropdown-item">Hair Accessories</a>
+                <a href="{% url 'products' %}?category=cosmetics,makeup_kit,hair_accessories" class="dropdown-item">All Beauty Accessories</a>
             </div>
         </li>
         <!-- Special Offer Button -->
@@ -71,10 +71,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals %}" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals %}" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance %}" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance %}" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
