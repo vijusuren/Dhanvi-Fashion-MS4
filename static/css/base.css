@@ -109,7 +109,7 @@ input[name='q']::placeholder {
 /*----------------------------------------Carousel */
 .carousel-item {
   position: relative;
-  /* height: 75vh; */
+  
 }
 
 .carousel-inner {
