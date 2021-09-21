@@ -37,11 +37,11 @@
                             <div class="col-lg-4">
                                 <!-- Blog Image -->
                                 {% if blog.image %}
-                                    <a href="{% url 'blog_detail' blog.slug %}" target="_blank">
+                                    <a href="{% url 'blog_detail' blog.slug %}">
                                         <img src="{{ blog.image.url }}" alt="{{ blog.name }}" class="card-img img-fluid">
                                     </a>
                                 {% else %}
-                                <a href="{% url 'blog_detail' blog.slug %}" target="_blank">
+                                <a href="{% url 'blog_detail' blog.slug %}">
                                     <img src="{{ MEDIA_URL }}noimage.png" alt="{{ blog.name }}" class="card-img img-fluid">
                                 </a>
                                 {% endif %}
