@@ -11,3 +11,15 @@ def all_blog_posts(request):
     }
 
     return render(request, 'blog/blog_posts.html', context)
+
+
+def blog_detail(request, slug):
+    """
+    A view to return individual blog posts
+    """
+    blog = get_object_or_404(BlogPost, slug=slug)
+    context = {
+        'blog': blog,
+    }
+
+    return render(request, 'blog/blog_detail.html', context)
