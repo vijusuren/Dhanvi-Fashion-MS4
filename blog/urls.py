@@ -6,4 +6,5 @@ urlpatterns = [
     path('add/', views.add_blog, name='add_blog'),
     path('detail/<slug:slug>/', views.blog_detail, name='blog_detail'),
     path('edit/<slug:slug>/', views.edit_blog, name='edit_blog'),
+    path('delete/<slug:slug>/', views.delete_blog, name='delete_blog'),
 ]

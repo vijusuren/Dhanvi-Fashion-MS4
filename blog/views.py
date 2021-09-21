@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .models import BlogPost
-from .forms import BlogForm
+from .forms import BlogForm, CommentForm
 
 
 def all_blog_posts(request):
@@ -21,12 +21,24 @@ def blog_detail(request, slug):
     """
     A view to return individual blog posts
     """
+    template_name = 'blog/blog_detail.html'
     blog = get_object_or_404(BlogPost, slug=slug)
-    context = {
-        'blog': blog,
-    }
+    comments = blog.comments.filter(active=True)
+    new_comment = None
 
-    return render(request, 'blog/blog_detail.html', context)
+    if request.method == 'POST':
+        comment_form = CommentForm(data=request.POST)
+        if comment_form.is_valid():
+            new_comment = comment_form.save(commit=False)
+            new_comment.post = blog
+            new_comment.save()
+    else:
+        comment_form = CommentForm()
+
+    return render(request, template_name, {'blog': blog,
+                                           'comments': comments,
+                                           'new_comment': new_comment,
+                                           'comment_form': comment_form})
 
 
 @login_required
@@ -90,3 +102,18 @@ def edit_blog(request, slug):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def delete_blog(request, slug):
+    """
+    Delete a blog post from the blog
+    """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, this is only for store owners.')
+        return redirect(reverse('home'))
+
+    blog = get_object_or_404(BlogPost, slug=slug)
+    blog.delete()
+    messages.success(request, f'Successfully deleted "{blog.title}" .')
+    return redirect(reverse('blogs'))
