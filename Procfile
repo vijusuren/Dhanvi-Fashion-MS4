@@ -1,1 +1,1 @@
-web: gunicorn dhanvi-fashion-ms4.wsgi:application
+web: gunicorn Dhanvi-Fashion-MS4.wsgi:application
