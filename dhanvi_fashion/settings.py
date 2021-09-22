@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-f&&l4ag@n^=^gg-+lf90j*=ukzlh27d=pxeo-2fpal926+*f8p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dhanvi-fashion-ms4.herokuapp.com', 'localhost']
 
 
 # Application definition
