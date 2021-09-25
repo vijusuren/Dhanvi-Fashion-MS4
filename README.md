@@ -415,3 +415,387 @@ The blog management page is visible only to the admin by clicking the blog manag
 **Back to top button:**
 
 A back to top button is visible on product and bag pages when the user scrolls past 200 pixels.
+
+**Contact Page:**
+
+The contact page can be opened by clicking the contact us link on the footer. This page has a feedback form for the user to enter 'name', 'email', 'subject', and the 'message'. One button is given to send the message. The message directly goes to the admin's email account.
+
+**Toasts:**
+
+All pages display toast messages depending on the action taken. Toast messages are of 4 types, 'success', 'error', 'warning', and 'info'. The toast color also changes according to the message. Toast is displayed at the top right of the page below the navbar. There is a button is the toast to go to the secure checkout.
+
+**Delete Modal:**
+
+The delete modal is added for the safety of the site. This modeal will display only in the blogs. The admin can delete blogs but while doing that one delete modal pops up asking for confirmation about the action. If the admin is sure to delete then he/she clicks the delete button or if not sure then click cancel and go back to the open page.
+
+### **Features to be implemented in Future**
+
+There are plenty of features that can be added to the project in the future as Django gives multiple opportunities and options. 
+
+1. Account login via social media
+ 
+ I wanted to add Gmail or Facebook login in the project but due to some factors, I could not do that. I would love to do that in the future after getting more knowledge in Django.
+
+2. Product Review
+
+ It would be great if the user gets to know what other people think about a particular product. I would love to do that in the future.
+
+3. Comments section with user profile
+
+ When the registered user wants to add comments on the blog, it should show the name and email id prefilled in the form. This can be implemented in the future.
+
+[Go back to Top](#table-of-content)
+***
+
+## **Technologies used**
+
+### **Languages Used**
+
+* [HTML](https://en.wikipedia.org/wiki/HTML) is the main language used to write code for this project.
+* [CSS](https://en.wikipedia.org/wiki/CSS) is used to write code for designing and beautifying the site.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) is used to add functionality and make the site more interactive.
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) is used for the Backend Programming.
+  * [jinja](https://en.wikipedia.org/wiki/Jinja_(template_engine)) is used as the template engine for Python.
+
+### **Libraries, Frameworks and Editors**
+
+ * [Django](https://www.djangoproject.com/) is a Python Web Framework, which is used for development.
+ * [AWS S3](https://aws.amazon.com/s3/) cloud storage for static and media files.
+ * [Gitpod](https://gitpod.io/) main workspace IDE(integrated Development Environment).
+ * [jQuery](https://jquery.com/) was used for the interactive features.
+ * [Bootstrap](https://getbootstrap.com/) is used to make main structure and layout of the project.
+ * [Google Fonts](https://fonts.google.com/) was used for the font 'Montserrat' for this project .
+ * [Font Awesome](https://fontawesome.com/) is used to import Social media icons to beautify the footer, and icons for bag and user in every page.
+ * [GitHub](https://github.com/) is used to make **Repositories** and for **Version Control**.
+ * [Git](https://git-scm.com/) was used for version control by making use of the gitpod terminal to add, commit and push to github..
+ * [Heroku](https://www.heroku.com/about) was used for deploying the app.
+ * [Unsplash](https://unsplash.com/) was used to get imagesfor background and blogs.
+ * [Google Images](https://www.google.com/) was used to get images for the products.
+
+### **Extensions and Kits**
+
+ * [Django allauth](https://django-allauth.readthedocs.io/en/latest/) was used as authentication system.
+ * [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) was used to format forms.
+ * [Pillow](https://pillow.readthedocs.io/en/stable/) Python imaging library to help store imagery into a database.
+ * [psycopg2](https://pypi.org/project/psycopg2/) PostgreSQL database adapter for the Python.
+
+### **Databases**
+
+ * [Sqlite 3](https://www.sqlite.org/index.html) Used as development database.
+ * [PostgresSQL](https://www.postgresql.org/) used as the database for deployment.
+
+### **Tools**
+
+ * [Stripe](https://stripe.com/ie) used as as the payment infrastucture to take payments on the site.
+ * [Am I Responsive?](http://ami.responsivedesign.is/) is used to take a mockup screenshot of the project, which is attached at the beginning of this document.
+ * [Autoprefixer](https://autoprefixer.github.io/) is used to make the site compatible with all browsers.
+ * [iColorpalette](https://icolorpalette.com/) is used to find a relevant color palette for the site.
+ * [W3C Validator](https://validator.w3.org/) is used for testing HTML and CSS for the site.
+ * [JSHint](https://jshint.com/) is used for testing javascript code for the site.
+ * [PEP8 online](http://pep8online.com/) is used for testing Python codes.
+ * [Online Spelling Check](https://www.grammarly.com/), Grammarly is used to check spelling and grammatical errors.
+ * [Snipping Tool](https://en.wikipedia.org/wiki/Snipping_Tool) was used to take screenshots of the images and codes.
+ * [Balsamiq](https://balsamiq.com/wireframes/) is used to make wireframes for this project in the skeleton stage.
+ * [Grammarly](https://app.grammarly.com/) is to check spelling errors of the README.md and TESTING.md.
+
+
+[Go back to Top](#table-of-content)
+***
+
+## **Bugs**
+
+### **Project barriers and solutions**
+
+* While making the checkout page got TypeError later I rectified it. I did the spelling mistake in that page after corrected its working fine.
+
+* While deploy my project I am getting Application Error because of spelling mistake in setting.py with the support of Tutors I rectified it.
+
+* After upload eveything in AWS S3 again my application was not loading static and media file after the support of Tutor I rectified it. In my AWS S3 Buckets I didnt give the bucket policy correctly.
+
+[Go back to Top](#table-of-content)
+***
+
+## **Testing**
+
+Testing steps and results can be found in [TESTING file](TESTING.md).
+
+[Go back to Top](#table-of-content)
+***
+
+## **Deployment**
+
+This E-Commerce project was developed in Gitpod and pushed to a remote repository on Github, using Git as version control. This project was deployed to Heroku, and AWS(Amazon Web Services and S3 Bucket) is used to store static and media files.
+
+### **Local Deployment**
+
+This project can be cloned or downloaded from Github by following these steps. First, decide which IDE you want to use and then install these:
+
+ * Git - For version control
+ * PIP - to install packages
+ * Python - the programming language used in the backend.
+
+These are many ways to clone a repository suggested by Github. Download the entire repo as a zip file, and then upload that zip into a new workspace. Otherwise, on the repository page in Github, follow these steps:
+
+ 1. Click the 'Code' button.
+
+ 2. In this dropdown menu, click the clipboard icon to copy the URL.
+
+ 3. In the terminal window back in your IDE, make sure the current working directory is the location where you want to clone the repository.
+
+ 4. In the command line, paste in the URL retrieved from the repo using the command:
+
+        git clone <copied-repository-url-from-Step-2-^^>
+
+5. Create the environment variables, This can be created either in the Gitpod Settings by going to the Gitpod dashboard, go to Settings=> variables => and add the variables, or create an env.py and add the env.py in the .gitignore file in your projects root directory. These are the variables that should be included :
+
+        DEVELOPMENT = True
+        SECRET_KEY = YOUR_SECRET_KEY
+        STRIPE_PUBLIC_KEY = YOUR_STRIPE_PUBLIC_KEY
+        STRIPE_SECRET_KEY = YOUR_STRIPE_SECRET_KEY
+        STRIPE_WH_SECRET = YOUR_STRIPE_WH_SECRET
+
+Sign up to Stripe to get the PUBLIC and SECRET keys. This can be done by going on the Stripe, then on the left column of the page, click 'Developers'. and get API keys. Once you have set up the webhook endpoints, you will be given a unique STRIPE_WH_SECRET key.
+
+ more information on this can be found [here](https://stripe.com/docs)
+
+6. Install the required dependencies for the app to run, type this in the command line:
+
+        pip3 install -r requirements.txt
+
+7. The project will now be set up and to make it run in the type this in the command line:
+
+        python3 manage.py runserver
+
+ To create a superuser to access the admin backend:
+
+        python3 manage.py creatsuperuser
+
+ To access the admin backend add to the end of the site's URL:
+
+        https://<dhanvi-fashion-url>/admin
+
+This will allow you to add, edit, and delete products, categories, users, orders and verify any email addresses and comments on blogs.
+
+8. Models will need to be migrated to create them in the database. In the command line, type:
+
+        python3 manage.py makemigrations --dry-run
+
+        python3 manage.py makemigrations
+
+        ***FOLLOWED BY***
+
+        python3 manage.py migrate --plan
+
+        python3 manage.py migrate
+
+Whenever a model is edited it will need to be migrated. to make sure we are migrating the correct models, we run a dry run flag before makemigrations, and to make sure which models to be migrated, we run a plan flag with migrate beforehand.
+
+### **Deployment to Heroku**
+
+Deploying this site to Heroku-
+
+1. Sign up or Log in to the Heroku app. After signing in, click 'New'. found at the top right of the dashboard, and then 'Create new app'.
+
+2. Give an app a unique name and set the region closest to your location, then click 'Create app'.
+
+3. Once created, click on the 'Resource' tab, and in the add ons search bar, type Postgres, and click 'Heroku Postgres' and then use the free plan. and confirm. This will provide a new Postgres database.
+
+4. There are some extra dependencies and files that needed to be installed:
+
+  * psycopg2-binary - a PostgresSQL database adapter for the Python programming language.
+  * dj_database_url - a Django utility that allows you to utilize 12factor inspired DATABASE_URL environment variables to configure the Django application.
+
+We also need to install *gunicorn* - a Python Web Server Gateway Interface(WSGI) HTTP server, which will act as the webserver.
+
+5. After installing the dependencies, run the command:
+
+        pip3 freeze > requirements.txt
+
+ This will ensure that Heroku installs all our apps requirements when we deploy.
+
+6. Postgres is used for deployment and to transfer the files, we have to re-create the database manually. To do this we have to follow these steps:
+
+ * Make sure you are connected to your MySQL database.
+
+ * Backup your current database and load it into a db.json file by typing in the command line:
+
+        python3 manage.py dumpdata --exclude auth.permission --exclude contenttypes > db.json
+
+7. Now to set up the new database, Go to the project's 'settings.py' and import dj_database_url at the top.
+
+8. Scroll down to database setting and comment out the default configuration, replacing it with a call to dj_database_url.parse and give it the database URL from Heroku:
+
+          DATABASES = {
+                  'default': dj_database_url.parse("<YOUR_Postrgres_database_URL>")
+              }
+
+This can be found from the settings tab on Heroku, by clicking 'Reveal config vars' and copying the value there from the DATABASE_URL key. It will start with 'postgres://'. You can also get this from typing in the command line:
+
+        heroku config
+
+Note: This is a temporary setup and should not be pushed to Github for security reasons.
+
+Now your manage.py is connected to the new Postgres database. We have to run the migrations again as this is a new database.
+
+9. After this, load your product data from the db.json file into Postgres using:
+
+        python3 manage.py loaddata db.json
+
+10. Next, we have to create a superuser to use on the Postgres database:
+
+        python3 manage.py createsuperuser
+
+11. In 'settings.py' we have to create an if statement so when the Heroku app is running, you connect to the Postgres database. Otherwise, you connect to the development database. Replace the database setting with this code:
+
+        if 'DATABASE_URL' in os.environ:
+            DATABASES = {
+                'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+            }
+        else:
+            DATABASES = {
+                'default': {
+                    'ENGINE': 'django.db.backends.sqlite3',
+                    'NAME': BASE_DIR / 'db.sqlite3',
+                }
+            }
+
+12. Create a procfile, to tell Heroku how to run this project. Inside this file, add:
+
+        web: gunicorn cooks_finest.wsgi:application
+
+13. Login to Heroku on the command line, using:
+
+        heroku login -i
+
+14. Disable collectstatic in the Heroku won't try to collect static files when we deploy. If you have more than on app then don't forget --app flag in the command:
+
+        heroku config:set DISABLE_COLLECTSTATIC=1 --app dhanvi-fashion-ms4
+
+15. Add the hostname of your Heroku app to allowed hosts in 'settings.py'.
+
+Heroku can be connected to Github to automatically deploy each time you issue a git push in the command line. The easiest way to enable this is :
+
+ 1. Open Heroku and navigate to the 'deploy' tab. 
+ 2. Under 'Deployment Method' select 'Connect to Github'.
+ 3. Search for your repository name and collect connect.
+ 4. Then scroll down and click 'Enable Automatic Deploys'.
+
+ The code will now be automatically deployed with every git push. Upon a git push, you will see the build in progress in the 'Activity' tab on Heroku. You are now deployed to Heroku.
+
+ ### **Hosting Images on Amazon Web Service S3**
+
+The static and media files are hosted in an AWS S3 bucket for this project. We need to create an account with AWS, create an S3 bucket, giving it public access. The CORS configurations were provided by Code Institute, which is:
+
+        [
+          {
+              "AllowedHeaders": [
+                  "Authorization"
+              ],
+              "AllowedMethods": [
+                  "GET"
+              ],
+              "AllowedOrigins": [
+                  "*"
+              ],
+              "ExposeHeaders": []
+          }
+        ]
+
+The detailed set up of the S3 bucket can be found [here](https://docs.aws.amazon.com/s3/index.html)
+
+We need to set the static and media files in our workspace. For this, we need to do the following:
+
+1. Install 'boto3' and 'django-storages' and freeze them in requiremnets.txt
+
+        pip3 install boto3
+        pip3 install django-storages
+        pip3 freeze > requiremnets.txt
+
+2. In 'setting.py' add 'storages' under INSTALLED APPS. Then add these following settings to tell Django which bucket it should be communicating with:
+
+          STATIC_URL = '/static/'
+          STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+
+          MEDIA_URL = '/media/'
+          MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+          if 'USE_AWS' in os.environ:
+             # Cache control
+             AWS_S3_OBJECT_PARAMETERS = {
+                'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+                'CacheControl': 'max-age=94608000',
+              }
+
+            # Bucket Config
+            AWS_STORAGE_BUCKET_NAME = 'dhanvi-fashion-ms4'
+            AWS_S3_REGION_NAME = 'eu-west-1'
+            AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+            AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+            AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+
+            # Static and Media files
+            STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+            STATICFILES_LOCATION = 'static'
+            DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+            MEDIAFILES_LOCATION = 'media'
+
+            # Override static and media URLs in production
+            STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+            MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+
+After setting up the s3 bucket, We get a csv file downloaded. In this file, we will find the AWS access key and secret access key.
+
+3. Add these keys to Heroku config variables.
+
+4. Add a variable here with the key of 'USE_AWS' with a value of 'True'. This ensures that the settings file knows to use the AWS configuration when deploying to Heroku.
+
+5. Delete the DISABLE_COLLECSTATIC variables from Heroku, so Django can collect static files automatically uploading them to the S3 bucket.
+
+6. Create a file called 'custom_storages.py'. This will contain the following:
+
+        from django.conf import settings
+        from storages.backends.s3boto3 import S3Boto3Storage
+
+
+        class StaticStorage(S3Boto3Storage):
+            location = settings.STATICFILES_LOCATION
+
+
+        class MediaStorage(S3Boto3Storage):
+            location = settings.MEDIAFILES_LOCATION
+
+7. Add and commit all these changes then issue a git push. This will trigger an automatic deployment to Heroku, and then all of this logic will be implemented, and static and media files will be applied to the deployed site.
+
+[Go back to Top](#table-of-content)
+***
+
+## **Credits**
+
+### **Code**
+
+ 1. [Bootstrap](https://getbootstrap.com/) is used for the project layout and to make the site responsive and codes for Navbar, Delete Modal are referred from there.
+
+ 2. **Boutique Ado** project from Code institute was referred throughout the project for the project setup and making use of allauth template logic. 
+
+ 3. My own Two models for the **Blog** app, *blogpost*, and *comments* are referred from Django Central's [Building a blog application](https://djangocentral.com/building-a-blog-application-with-django/) and [Creating Comments system with Django](https://djangocentral.com/creating-comments-system-with-django/)
+
+ 4. [Stackoverflow](https://stackoverflow.com/)is used to rectified my error.
+
+ ### **Media**
+
+ 1. [Google Images](https://www.google.com/) is used to get product images and [Amazon.uk](https://www.amazon.co.uk/) is used to refer the product descriptions.
+
+ 2. [Unsplash](https://unsplash.com/) is used to get images on the Home page.
+
+ ### **Acknowledgments**
+
+ 1. My mentor **Adegbenga Adeye** for his guidance and advice.
+
+ 2. Code Institute **Slack Community** of solving every small issue.
+
+ 3. Code Institute's Tutors **John** , **Alan**, **Scott** of their support and guidance when I am getting application error while deploy my project.
+
+ 4. My Family for supporting and understanding me in this long project.
+
+[Go back to Top](#table-of-content)
+***
