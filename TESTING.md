@@ -51,11 +51,13 @@
 ### **Markup**
  [W3C Markup Validation Service](https://validator.w3.org/)
 
- * W3C markup validation service is used for the testing of the **HTML** of all  HTML pages and 
+ * W3C markup validation service is used for the testing of the HTML of all HTML pages and
 
     The  result was this.
 
-    ![image]()
+    ![image](docs/html_result.JPG)
+ * So, I removed the unwanted DOCTYPE from the html pages and added one ul in the mobile nav page. Then the result came like this.
+    ![image](docs/html_result1.JPG)
 
 ### **CSS**
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
@@ -64,7 +66,7 @@
 
     The result can be seen here.
 
-    ![image]()
+    ![image](docs/css_result.JPG)
 
 ### **Javascript**
 [JSHint](https://jshint.com/)
@@ -74,11 +76,11 @@
     The result can be seen here.
 * Stripe_elements.js
 
-* ![script.js]() 
+* ![script.js](docs/stripe_js.JPG) 
 
 * Countryfield.js
 
-* ![image]()
+* ![image](docs/country_js.JPG)
 
 These warnings can be overlooked.
 
@@ -87,15 +89,7 @@ These warnings can be overlooked.
 
  The result can be seen here.
 
- ![python]()
-
- Further testing was done by typing this code in command line
-
-     python3 -m flake8
-
-And the result found was this
-
-![image]()
+ ![python](docs/py_result.JPG)
 
 [Go to Top](#testing)
 ***
