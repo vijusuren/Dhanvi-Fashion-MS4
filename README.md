@@ -4,7 +4,7 @@
 
 The live website can be found [here](https://dhanvi-fashion-ms4.herokuapp.com/)
 
-![image]())
+![image](docs/responsive.JPG)
 
 This is my fourth and final milestone project for Code institute’s full-stack web developer diploma. This project is a **Django web application** made with the use of **HTML**, **CSS**, **JavaScript**, and **Python** and utilizing a relational database.
 **Stripe** is also used for payment systems.
@@ -153,38 +153,38 @@ The wireframes for this project can be seen here.
 <summary>Wireframe</summary>
 <br>
 
-1. [Home Page]()
+1. [Home Page](docs/home_page.pdf)
 
-2. [Products Page]()
+2. [Products Page](docs/product_page.pdf)
 
-3. [Product Details Page]()
+3. [Product Details Page](docs/product_detail_page.pdf)
 
-4. [Category Page]()
+4. [Category Page](docs/category_page.pdf)
 
-5. [My Profile Page]()
+5. [My Profile Page](docs/myprofile_page.pdf)
 
-6. [Login Page]()
+6. [Login Page](docs/login_page.pdf)
 
-7. [Register Page]()
+7. [Register Page](docs/register_page.pdf)
 
-8. [Bag Page]()
+8. [Bag Page](docs/bag_page.pdf)
 
-9. [Checkout Page]()
+9. [Checkout Page](docs/checkout_page.pdf)
 
-10. [Contact page]()
+10. [Contact page](docs/contact_page.pdf)
 
-11. [Blog Page]()
+11. [Blog Page](docs/blog_page.pdf)
 
-12. [Blog Details Page]()
+12. [Blog Details Page](docs/blog_details_page.pdf)
 
-13. [Product Management Page]()
+13. [Product Management Page](docs/product_management_page.pdf)
 
 </details>
 
 #### **Sitemap**
 A Sitemap is prepared for this site to understand the navigation of the pages.
 
-The Sitemap can be seen here. [Sitemap]()
+The Sitemap can be seen here. [Sitemap](docs/Sitemap.pdf)
 
 ### **Surface**
 #### **Color**
@@ -469,7 +469,6 @@ There are plenty of features that can be added to the project in the future as D
  * [GitHub](https://github.com/) is used to make **Repositories** and for **Version Control**.
  * [Git](https://git-scm.com/) was used for version control by making use of the gitpod terminal to add, commit and push to github..
  * [Heroku](https://www.heroku.com/about) was used for deploying the app.
- * [Unsplash](https://unsplash.com/) was used to get imagesfor background and blogs.
  * [Google Images](https://www.google.com/) was used to get images for the products.
 
 ### **Extensions and Kits**
