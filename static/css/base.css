@@ -648,6 +648,9 @@ footer {
       margin: 0;
   }
 
+  .footer-container {
+    height: 175px;
+  }
   .cover-text {
       top: -200px;
       font-size: 120%;
@@ -672,7 +675,7 @@ footer {
 
 @media (max-width: 487px) {
   .footer-container {
-      height: 150px;
+      height: 175px;
   }
 
   .social-links {
