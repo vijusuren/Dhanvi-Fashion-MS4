@@ -485,7 +485,7 @@ Testing User stories from UX part of [README.md](README.md)
 
 Lighthouse testing was done in Chrome Devtools and the result found was this.
 
-![image]()
+![image](docs/lighthouse.JPG)
 
 [Go to Top](#testing)
 ***

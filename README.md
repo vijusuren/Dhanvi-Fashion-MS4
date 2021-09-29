@@ -193,7 +193,7 @@ The colors used for this project are kept very minimum so that the strong tonal 
 
 The colors used are:
 
-![image]()
+![image](docs/color_image.JPG)
 
 Mustard Yellow color is used for delivery Banner and hovers over across page. The Text color used are mainly black and changes to mustard yellow when hovered over.
 The placeholder text for the form have the color Cadet Blue(#AAB7C4) and the rating text of the product description is Bootstrap text-muted class Slate Gray(#6C757d).
