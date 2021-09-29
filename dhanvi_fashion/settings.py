@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY','')
+SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
@@ -51,7 +51,7 @@ INSTALLED_APPS = [
     'profiles',
     'blog',
     'contact',
-        
+
     # Other
     'crispy_forms',
     'storages',
@@ -91,7 +91,7 @@ TEMPLATES = [
             'builtins': [
                 'crispy_forms.templatetags.crispy_forms_tags',
                 'crispy_forms.templatetags.crispy_forms_field',
-            ]            
+            ]
         },
     },
 ]
@@ -136,7 +136,7 @@ else:
     }
 
 
-#DATABASES = {
+# DATABASES = {
 #    'default' : dj_database_url.parse('postgres://phquvzlqogxzxf:bffc9fb78810c0050ea2468e1853a7176b5c78c0c4d6c231112265a7b26252d1@ec2-52-213-167-210.eu-west-1.compute.amazonaws.com:5432/d69o863huiraa2')
 #}
 
@@ -189,7 +189,7 @@ if 'USE_AWS' in os.environ:
         'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
         'CacheControl': 'max-age=94608000',
     }
-  
+
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'dhanvi-fashion-ms4'
     AWS_S3_REGION_NAME = 'eu-west-1'
